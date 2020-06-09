@@ -18,7 +18,8 @@ def post_discord(links, count):
     embed.set_timestamp()
     webhook.add_embed(embed)
     webhook.execute()
-
+    print('[SUCCESS] --> Successfully sent success webhook!')
+    
 def main(links):
     last_count = 0
     while True:

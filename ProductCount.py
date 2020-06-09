@@ -1,7 +1,6 @@
 import requests
 import time
 import threading
-from datetime import datetime
 from discord_webhook import DiscordEmbed, DiscordWebhook
 
 links = ['https://shop.palaceskateboards.com/', 'https://oqium.com/', 'https://www.dailypaperclothing.com/']
